@@ -78,4 +78,5 @@ public class DialogActivity extends AppCompatActivity {
         MyProgressDialogFragment progressDialogFragment = new MyProgressDialogFragment();
         progressDialogFragment.show(getSupportFragmentManager(), "progressDialog");
     }
+
 }
