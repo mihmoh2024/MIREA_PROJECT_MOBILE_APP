@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
                 shareIntent.putExtra(Intent.EXTRA_SUBJECT, "MIREA");
                 shareIntent.putExtra(Intent.EXTRA_TEXT, "Смирнов Михаил Вячеславович");
                 startActivity(Intent.createChooser(shareIntent, "Смирнов М.В."));
+
             }
         });
     }

@@ -13,8 +13,11 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/app/activitylifecycle" />
             <option value="$PROJECT_DIR$/app/activitylifecycle2" />
+            <option value="$PROJECT_DIR$/app/dialog" />
             <option value="$PROJECT_DIR$/app/intentfilter" />
             <option value="$PROJECT_DIR$/app/multiactivity" />
+            <option value="$PROJECT_DIR$/app/notificationapp" />
+            <option value="$PROJECT_DIR$/app/toastapp" />
           </set>
         </option>
         <option name="resolveExternalAnnotations" value="false" />
