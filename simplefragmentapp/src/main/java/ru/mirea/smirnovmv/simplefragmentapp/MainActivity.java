@@ -19,17 +19,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
-        /*
-        // Пример загрузки первого фрагмента
-        if (savedInstanceState == null) {
-            getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.list, new FirstFragment())
-                    .commit();
-            getSupportFragmentManager().beginTransaction()
-                    .replace(R.id.viewer, new SecondFragment())
-                    .commit();
-        }
-         */
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v,
                                                                             insets) -> {
             Insets systemBars =
