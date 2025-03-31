@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/firstView"
+            android:name="ru.mirea.smirnovmv.simplefragmentapp.FirstFragment"
+            android:layout_width="0dp"
+            android:layout_height="73dp"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_first" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/secondView"
+            android:name="ru.mirea.smirnovmv.simplefragmentapp.SecondFragment"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            tools:layout="@layout/fragment_second" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

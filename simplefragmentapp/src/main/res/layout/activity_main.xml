@@ -13,9 +13,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:name="ru.mirea.smirnovmv.simplefragmentapp.FirstFragment"
-        tools:layout="@layout/fragment_first" />
+        app:layout_constraintTop_toTopOf="parent" />
     <Button
         android:id="@+id/btnFirstFragment"
         android:layout_width="wrap_content"
