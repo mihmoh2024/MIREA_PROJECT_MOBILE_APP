@@ -1,5 +1,6 @@
 package ru.mirea.smirnovmv.simplefragmentapp;
 
+import android.graphics.drawable.GradientDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         fragment1 = new FirstFragment();
         fragment2 = new SecondFragment();
         FragmentManager fragmentManager = getSupportFragmentManager();
+
         Button btnFirstFragment = (Button) findViewById(R.id.btnFirstFragment);
         btnFirstFragment.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
