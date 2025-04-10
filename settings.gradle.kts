@@ -21,4 +21,8 @@ dependencyResolutionManagement {
 
 rootProject.name = "Lesson4"
 include(":app")
- 
+include(":musicplayer")
+include(":thread")
+include(":data_thread")
+include(":looper")
+include(":cryptoloader")
