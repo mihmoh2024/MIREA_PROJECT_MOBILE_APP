@@ -24,5 +24,9 @@
             android:id="@+id/webViewFragment"
             android:icon="@drawable/robot"
             android:title="@string/menu_web_view" />
+        <item
+            android:id="@+id/fragment_background"
+            android:icon="@drawable/robot"
+            android:title="@string/fon_fragment" />
     </group>
 </menu>

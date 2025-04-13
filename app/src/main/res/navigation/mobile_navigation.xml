@@ -32,4 +32,10 @@
         android:name="ru.mirea.smirnovmv.mireaproject.WebViewFragment"
         android:label="fragment_web_view"
         tools:layout="@layout/fragment_web_view" />
+    <fragment
+        android:id="@+id/fragment_background"
+        android:name="ru.mirea.smirnovmv.mireaproject.Background"
+        android:label="fragment_background"
+        tools:layout="@layout/fragment_background" />
+
 </navigation>
