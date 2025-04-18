@@ -11,3 +11,5 @@
 Практическая работа 3 - ветка lesson3, ветка mirea_project
 
 Практическая работа 4 - ветка lesson4, ветка mirea_project
+
+Практическая работа 5 - ветка lesson5, ветка mirea_project
