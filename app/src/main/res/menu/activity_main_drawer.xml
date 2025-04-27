@@ -28,5 +28,17 @@
             android:id="@+id/fragment_background"
             android:icon="@drawable/robot"
             android:title="@string/fon_fragment" />
+        <item
+            android:id="@+id/datchikFragment"
+            android:icon="@drawable/robot"
+            android:title="@string/str_datchik" />
+        <item
+            android:id="@+id/cameraFragment"
+            android:icon="@drawable/robot"
+            android:title="@string/str_camera" />
+        <item
+            android:id="@+id/audioFragment"
+            android:icon="@drawable/robot"
+            android:title="@string/str_audio" />
     </group>
 </menu>

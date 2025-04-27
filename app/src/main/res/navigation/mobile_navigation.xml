@@ -22,20 +22,39 @@
         android:name="ru.mirea.smirnovmv.mireaproject.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+
     <fragment
         android:id="@+id/nav_slavakpss_fragment"
         android:name="ru.mirea.smirnovmv.mireaproject.Slavakpss_fragment"
         android:label="fragment_slavakpss_fragment"
         tools:layout="@layout/fragment_slavakpss_fragment" />
+
     <fragment
         android:id="@+id/webViewFragment"
         android:name="ru.mirea.smirnovmv.mireaproject.WebViewFragment"
         android:label="fragment_web_view"
         tools:layout="@layout/fragment_web_view" />
+
     <fragment
         android:id="@+id/fragment_background"
         android:name="ru.mirea.smirnovmv.mireaproject.Background"
         android:label="fragment_background"
         tools:layout="@layout/fragment_background" />
+    <fragment
+        android:id="@+id/datchikFragment"
+        android:name="ru.mirea.smirnovmv.mireaproject.DatchikFragment"
+        android:label="fragment_datchik"
+        tools:layout="@layout/fragment_datchik" />
+    <fragment
+        android:id="@+id/cameraFragment"
+        android:name="ru.mirea.smirnovmv.mireaproject.CameraFragment"
+        android:label="fragment_camera"
+        tools:layout="@layout/fragment_camera" />
+    <fragment
+        android:id="@+id/audioFragment"
+        android:name="ru.mirea.smirnovmv.mireaproject.AudioFragment"
+        android:label="fragment_audio"
+        tools:layout="@layout/fragment_audio" />
+
 
 </navigation>

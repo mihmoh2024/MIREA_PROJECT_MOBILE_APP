@@ -13,7 +13,11 @@
     <string name="menu_slavakpss">Slava_KPSS</string>
     <string name="menu_web_view">WebView</string>
     <string name="fon_fragment">Background_Process</string>
+    <string name="str_datchik">Sensor</string>
+    <string name="str_camera">Camera</string>
+    <string name="str_audio">Microphone</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image_view_description">SmirnovImage</string>
     <string name="slavaboguantihaip">Слава Богу антихайп🙏❤️СЛАВА АНТИХАЙПУ🙏❤️АНГЕЛА ХРАНИТЕЛЯ АНТИХАЙПА КАЖДОМУ ИЗ ВАС🙏❤️БОЖЕ ХРАНИ АНТИХАЙП🙏❤️СПАСИБО ВАМ НАШИ АНТИХАЙПИКИ🙏🏼❤️ХРАНИ АНТИХАЙП✊💯СПАСИБО НАШИМ АНТИХАЙПИКАМ❤️🙏</string>
 </resources>
