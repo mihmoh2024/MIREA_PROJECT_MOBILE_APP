@@ -5,28 +5,35 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#7DF4EA"
+    android:backgroundTint="#78F4E7"
     tools:context=".MainActivity">
 
+
     <ImageView
-        android:id="@+id/imageView1"
-        android:layout_width="309dp"
-        android:layout_height="518dp"
-        android:contentDescription="@string/image_view_description"
-        android:scaleType="centerCrop"
+        android:id="@+id/profile_photo_view"
+        android:layout_width="360dp"
+        android:layout_height="485dp"
+        android:background="#7BF6EE"
+        android:backgroundTint="#79F8E5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.866" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="339dp"
+        android:layout_height="130dp"
+        android:backgroundTint="#19368E"
+        android:text="Take a photo"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.169" />
+        app:layout_constraintVertical_bias="0.114" />
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="147dp"
-        android:layout_height="43dp"
-        android:text="Текст"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
