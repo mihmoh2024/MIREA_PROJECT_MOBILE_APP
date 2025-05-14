@@ -55,6 +55,16 @@
         android:name="ru.mirea.smirnovmv.mireaproject.AudioFragment"
         android:label="fragment_audio"
         tools:layout="@layout/fragment_audio" />
+    <fragment
+        android:id="@+id/profile"
+        android:name="ru.mirea.smirnovmv.mireaproject.profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/fileWork"
+        android:name="ru.mirea.smirnovmv.mireaproject.FileWork"
+        android:label="fragment_file_work"
+        tools:layout="@layout/fragment_file_work" />
 
 
 </navigation>

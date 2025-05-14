@@ -40,5 +40,13 @@
             android:id="@+id/audioFragment"
             android:icon="@drawable/robot"
             android:title="@string/str_audio" />
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/robot"
+            android:title="@string/str_profile" />
+        <item
+            android:id="@+id/fileWork"
+            android:icon="@drawable/robot"
+            android:title="@string/str_filework" />
     </group>
 </menu>
