@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
         bSave.setOnClickListener(v -> {
             savePreferences();
-            Toast.makeText(MainActivity.this, "Данные сохранены", Toast.LENGTH_SHORT).show();
+            Toast.makeText(MainActivity.this, "Данные сохранены", Toast.LENGTH_LONG).show();
         });
     }
 
