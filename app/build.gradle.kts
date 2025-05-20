@@ -1,5 +1,6 @@
 plugins {
     alias(libs.plugins.android.application)
+    alias(libs.plugins.google.gms.google.services)
 }
 
 android {
@@ -46,6 +47,8 @@ dependencies {
     implementation(libs.fragment)
 
     implementation("androidx.work:work-runtime-ktx:2.10.0")
+    implementation(libs.firebase.auth)
+    implementation(libs.activity)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)

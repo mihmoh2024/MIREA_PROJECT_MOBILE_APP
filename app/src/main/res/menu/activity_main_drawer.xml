@@ -48,5 +48,9 @@
             android:id="@+id/fileWork"
             android:icon="@drawable/robot"
             android:title="@string/str_filework" />
+        <item
+            android:id="@+id/networkResourse"
+            android:icon="@drawable/robot"
+            android:title="@string/str_networkresources" />
     </group>
 </menu>

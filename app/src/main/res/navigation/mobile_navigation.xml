@@ -65,6 +65,11 @@
         android:name="ru.mirea.smirnovmv.mireaproject.FileWork"
         android:label="fragment_file_work"
         tools:layout="@layout/fragment_file_work" />
+    <fragment
+        android:id="@+id/networkResourse"
+        android:name="ru.mirea.smirnovmv.mireaproject.NetworkResourse"
+        android:label="fragment_network_resourse"
+        tools:layout="@layout/fragment_network_resourse" />
 
 
 </navigation>
